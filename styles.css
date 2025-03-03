@@ -1,0 +1,42 @@
+.frame{
+    width: 400px;
+    height: 300px;
+    background-color: #5AED9C;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.elemnt {
+    position: absolute;
+    right: 110px;
+    top: 60px;
+    width: 50px;
+    height: 50px;
+    border-left: 30px solid #4B4D88;
+    border-bottom: 30px solid #4B4D88;
+  }
+  .elemnt::before{
+    content: "";
+    position: absolute;
+    left: -80px;
+    top: 50px;
+    width: 50px;
+    height: 50px;
+    border-left: 30px solid #4B4D88;
+    border-bottom: 30px solid #4B4D88;
+  }
+  .elemnt::after {
+    content: "";
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    width: 50px;
+    height: 50px;
+    border-left: 30px solid #4B4D88;
+    border-bottom: 30px solid #4B4D88;
+  }
